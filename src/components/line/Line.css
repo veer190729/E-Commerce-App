@@ -1,0 +1,7 @@
+.hr-line {
+    display: block;
+    border: 0;
+    border-top: 2px solid #787878;
+    margin: 0;
+    padding: 0;
+}

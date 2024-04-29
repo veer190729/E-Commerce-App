@@ -1,0 +1,87 @@
+.footer {
+  background-color: #0f0e0e;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 140px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: poppins;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.mail input[type="email"] {
+  width: 100%; /* Adjusted for responsiveness */
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.socialIcons a {
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.socialIcons a:last-child {
+  margin-right: 0;
+}
+
+.line {
+  margin-top: 20px; /* Adjusted for responsiveness */
+}
+
+.copyRight {
+  color: #bbb7b7;
+  font-size: 14px; /* Adjusted for responsiveness */
+  font-family: poppins;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .line {
+    margin-top: 40px;
+  }
+
+  .copyRight {
+    font-size: 12px;
+  }
+
+  .mail input[type="email"] {
+    width: 30%; /* Adjusted for responsiveness */
+  }
+}
+
+
